@@ -1,0 +1,23 @@
+*{margin:0; padding:0;}
+.main{width:700px; margin:0 auto;}
+.header{}
+.header img,.slider img{ width:100%;}
+.mainmenu{ background:red; overflow:hidden}
+.mainmenu ul{ margin:0; padding:0; list-style:none;}
+.mainmenu ul li{ float:left}
+.mainmenu ul li a{ color:#ffffff; padding:15px; display:inline-block; text-decoration:none}
+.mainmenu ul li a:hover{ background:gray}
+.slider{ overflow:hidden}
+.maincontent{ overflow:hidden; margin-top:20px}
+.left_content{ float:left; width:400px}
+.left_content p{ text-align:justify}
+.right_content{ float:right; width:280px; background:#ccc}
+.right_content ul{ margin:0; padding:0; list-style:none}
+.right_content ul li{ display:block}
+.right_content ul li a{ display:block; padding:10px;text-decoration:none}
+.footer{ background:red; color:#fff; text-align:center; padding-top:10px; padding-bottom:10px; margin-top:20px}
+body.theme-green .mainmenu, body.theme-green .footer{ background:green} 
+body.theme-green .maincontent h1{ color:green}
+body.theme-yellow .mainmenu, body.theme-yellow .footer{ background:yellow} 
+body.theme-yellow .maincontent h1{ color:yellow}
+
