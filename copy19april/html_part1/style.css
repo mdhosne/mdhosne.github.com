@@ -1,0 +1,18 @@
+.{ margin:0; padding:0}
+.{ font-family:arial; font-size:14px; line-height:20px; color:#000;}
+.main{ width:960px; margin:20px auto; overflow:hidden}
+.header img, .slider img{ width:960px}
+
+.mainmenu{ background:#CCC; overflow:hidden}
+.mainmenu ul{ margin:0; padding:0; list-style:none}
+.mainmenu ul li{ border-right:5px solid #ddd; float:left}
+.mainmenu ul li a{ padding:10px ; display:block; color:#000}
+.mainmenu ul li a:hover{ background:#96C}
+.maincontent{ margin-top:30px; overflow:hidden}
+.maincontent h2{ margin:auto}
+.content{ float:left; width:600px; margin-right:30px}
+.sidebar{ float:right; width:330px}
+.sidebar ul{ list-style:none}
+.sidebar ul li{ padding:5px; border-bottom:1px solid #ddd}
+.sidebar ul li a{ text-decoration:none; color:#000}
+.footer{ margin-top:20px}

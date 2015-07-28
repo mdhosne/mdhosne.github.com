@@ -1,0 +1,25 @@
+*{ margin:0; padding:0}
+.body { font-family:Tahoma, Geneva, sans-serif; font-size:50px; line-height:22px; color:#666}
+.fix{ overflow:hidden}
+.main{ width:960px; margin:25 auto; display:block; background-color:#936}
+.header img{ width:960px; height:209px}
+.nivoSlider{}
+.slider{width:960px; background:url(images/banner.jpg); no-repeat; margin-bottom:25px}
+.slider_text{color: #a79622;
+margin-left: 229px;
+margin-top: 73px;}
+.slider_text h1{color: #5a7ed4;
+font-size: 31px;
+line-height: 2;}
+.slider_text h2{}
+.slider_text p{}
+.maincontent{ text-align:justify}
+.sidebar{ width:260px; background:#ededed; float:left; margin-right:30px; padding:20px}
+.sidebar ul{ margin:0; padding:0; list-style:none}
+.sidebar ul li{ padding:5px; border-bottom:1px solid #CCC}
+.sidebar ul li a{ text-decoration: none; color:#306}
+.sidebar ul li a:hover{ color:#000}
+.content{ width:610px; padding-right:20px}
+.content h2{ margin-bottom:20px; font-weight:normal;}
+.content p{ margin-bottom:15px; text-align-last:justify}
+.footer{ padding:10px; background:#666}

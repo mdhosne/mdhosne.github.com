@@ -1,0 +1,33 @@
+
+body{ width:980px; margin:25px auto}
+.header_area{ background:url( img/headerbg.jpg); min-height:380px; margin:25px auto; width:980px}
+.header_area p{ margin-top:30px; margin-left:25px}
+.header{ margin-top:30px}
+.header-right p{background-image: url("img/sign2.png" );
+background-position: right top;
+background-repeat: no-repeat;
+color: yellow;
+padding: 27px;
+text-transform: uppercase;
+width:391px}
+.mainmenu{ margin-top:20px; margin-left:25px}
+.mainmenu ul{ margin:0; padding:0; list-style:none}
+.mainmenu ul li{ display: inline-block}
+.mainmenu ul li a{ display: block; color:#fff; padding-right:20px}
+.welcome_text img.welcome_graph{ float: right;
+margin-bottom: 7px;
+margin-right: 50px;
+margin-top: 20px;
+width: 264px;}
+.welcome_text  { margin-top:30px; margin-bottom:20px; border-bottom:10px solid red; overflow:hidden; color:#363636 }
+.welcome_text h2, .lower_content h2{ font-size:20px; text-transform: uppercase; color:pink; font-weight:900}
+.welcome_text h2 span, .lower_content h2 span{color:yellow}
+.welcome_text p{ width:500px; overflow:hidden;text-align: justify;
+width: 650px;}
+.single_service { text-align:center}
+.single_service h2{ text-transform:uppercase; color:green; font-size:20px; margin:20px 0}
+.single_service p{}
+.single_service img{ border-radius:50%; width:150px}
+.footer_area{}
+.big-border { height:15px; width: 100%; background: pink; margin:20px 0}
+.small-border { height:10px; width: 100%; background: pink; margin:20px 0}

@@ -1,0 +1,84 @@
+<html>
+
+	<head>
+		<title>This is page title</title>
+
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        
+        <script>
+		$("document").ready(function(){
+			
+			//$(".content h2").hide(2000);
+			//$(".header img").hide(5000);
+			/*
+			$(".header img").click(function(){
+				
+				//$(this).hide(5000);
+				$("body").hide(1000);
+				
+				}); 
+				*/
+				$(".header img").click(function(){
+				
+				$("body").css("background","red");
+				})
+				$(".content h2").click(function(){
+					
+					
+					$("body").css("background","white");
+					
+					
+					});
+			
+                
+            });
+			
+        </script>
+
+	</head>
+	<body>
+    	<div class="main">
+						<div class="header">
+							<img src="images/logo.jpg"/>           
+						</div>
+					<div class="mainmenu">
+							<ul>
+								<li><a href="">Home</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Contact</a></li>
+								<li><a href="">Others</a></li>
+								<li><a href="">Media</a></li>                              
+							</ul>
+					</div>
+					<div class="slider">
+							<img src="images/banner.jpg"/>
+					</div>
+						<div class="maincontent">
+							<div class="content">
+							<h2>This content Title</h2>
+						<p>ADOBE
+Personal Computer Software License Agreement
+1. WARRANTY DISCLAIMER, BINDING AGREEMENT AND ADDITIONAL TERMS AND AGREEMENTS.
+1URISDICTION, ADOBE AND ITS SUPPLIERS AND CERTIFICATION AUTHORITIES MAKE NO WARRANTIES CONDITIONS, REPRESENTATIONS, OR TERMS (EXPRESS OR IMPLIED WHETHER BY STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE) AS TO ANY MATTER INCLUDING WITHOUT LIMITATION NONINFRINGEMENT OF THIRD PARTY RIGHTS</p>
+                
+                </div>
+								<div class="sidebar">
+									<h2>Sidebar Title</h2>
+									<ul>
+										<li><a href="">Home</a></li>
+										<li><a href="">About</a></li>
+										<li><a href="">Contact</a></li>
+										<li><a href="">Others</a></li>
+										<li><a href="">Media</a></li>                            
+									</ul>                               
+								</div>
+						</div>     
+							<div class="footer">
+							<p>&copy; MM Foundation</p>
+							</div>
+							
+        </div>
+	</body>
+
+</html>

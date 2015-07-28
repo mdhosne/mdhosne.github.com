@@ -1,0 +1,102 @@
+<html>
+
+	<head>
+		<title>This is page title</title>
+        <link rel="stylesheet" type="text/css" href="css/pgwslider.css"/>
+
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/pgwslider.min.js"></script>
+        
+        <script>
+		$("document").ready(function(){
+			
+			/*
+				$("body").append("<p>This is append text</p>");
+				$(".footer p").append("<span style='color: green'>Another copyright text</span>");
+				$(".page-title").append(" Test");
+				$(".page-title").attr('id','test');
+				$(".header").append('width','300px');
+				$(".content").animate({
+					width:'0',
+					display:'none'
+					
+					
+					});
+                */
+				$(".green").click(function(){
+					$("body").addClass("theme-green").removeClass(" theme-yellow");
+					
+					});
+					$(".default").click(function(){
+						
+						$("body").removeClass("theme-green theme-yellow");
+						});
+					$(".yellow").click(function(){
+						
+					$("body").addClass(" theme-yellow").removeClass(" theme-green");	
+						
+					});
+					$(".pgwSlider").pgwSlider();
+					
+            });
+			
+        </script>
+
+	</head>
+	<body>
+    	<div class="main">
+						<div class="header">
+							<img src="images/logo.jpg"/>           
+						</div>
+					<div class="mainmenu">
+							<ul>
+								<li><a href="">Home</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Contact</a></li>
+								<li><a href="">Others</a></li>
+								<li><a href="">Media</a></li>                              
+							</ul>
+					</div>
+					<div class="slider">
+						<ul class="pgwSlider">
+                        	<li><img src="images/slider1.jpg" alt="This my slider1 Title" data-description="This is my data description"</li>
+                        <li><img src="images/slider2.jpg" alt="This my slider2 Title" data-description="This is my data description"</li>
+                        <li><img src="images/slider3.jpg" alt="This my slider3 Title" data-description="This is my data description"</li>
+                        </ul>
+					</div>
+						<div class="maincontent">
+							<div class="left_content">
+							<h1 class="page-title">Welcome</h1>
+						<p>ADOBE
+Personal Computer Software License Agreement
+1. WARRANTY DISCLAIMER, BINDING AGREEMENT AND ADDITIONAL TERMS AND AGREEMENTS.
+1URISDICTION, ADOBE AND ITS SUPPLIERS AND CERTIFICATION AUTHORITIES MAKE NO WARRANTIES CONDITIONS, REPRESENTATIONS, OR TERMS (EXPRESS OR IMPLIED WHETHER BY STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE) AS TO ANY MATTER INCLUDING WITHOUT LIMITATION NONINFRINGEMENT OF THIRD PARTY RIGHTS</p>
+                
+                </div>
+								<div class="right_content">
+                                <h1>View this Template in another color</h1>
+                                		<ul>
+                                        	<li class="default">Default</li>
+                                            <li class="green">green</li>
+                                            <li class="yellow">yellow</li>
+                                        
+                                        </ul>
+									<h1>Sidebar Heading</h1>
+									<ul>
+										<li><a href="">Home</a></li>
+										<li><a href="">About</a></li>
+										<li><a href="">Contact</a></li>
+										<li><a href="">Others</a></li>
+										<li><a href="">Media</a></li>                            
+									</ul>                               
+								</div>
+						</div>     
+							<div class="footer">
+							<p>&copy; MM Foundation</p>
+							</div>
+							
+        </div>
+	</body>
+
+</html>

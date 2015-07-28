@@ -1,0 +1,64 @@
+*{ margin:0; padding:0}
+body{ font-family:Century Gothic, Arial; font-size:14px; line-height:22px; color:#666; background:url(image/bg.png); repeat-y}
+h1,h2,h3,h4,h5,h6 { color:#000; font-weight:normal; margin-bottom:15px}
+.main_area{ width:960px; background:url(image/wrapper.png); repeat-x; scroll 0 0 #C5C5C5;margin:15px auto; display:block; 
+border-radius:10px; padding:10px 10px 0px}
+a{ text-decoration:none; color:#000}
+a:hover{text-decoration:none}
+.fix{ overflow:hidden}
+.header{ height:110px}
+.logo{ float:left; margin-right:15px}
+.site_title h1{ font-size:60px; line-height:50px}
+.site_title h2{ font-size:15px;}
+.site_title{ float:left; margin-right:15px}
+
+.header_right{ float:right}
+.call_us p{ font-size:18px}
+.social_bookmark{ margin-left: 74px; margin-top:20px}
+.social_bookmark img{ float:left;margin-left: 5px}
+.mainmenu{ background:url(image/menu.png) repeat-x; scroll 0 0 #000; border-radius:5px; margin-bottom:10px}
+.mainmenu ul{ margin:0; padding:0; list-style:none}
+.mainmenu ul li{float:left; background:url(image/separator.png) no-repeat scroll right center}
+.mainmenu ul li a last-child{ background:none}
+.mainmenu ul li a{display:block; color:#fff; padding:10px 25px}
+.mainmenu ul{}
+.slider{ margin-bottom:10px}
+.slider img{width:100%}
+.call_to_action{ background:url(image/middleaction.png) repeat-x; border-radius:10px; margin-bottom:10px; padding:10px}
+.call_to_action h1{float: left;
+font-size: 36px;
+margin-bottom: 0;
+margin-right: 10px;
+padding: 10px;}
+.call_to_action p{
+float: left;
+font-size: 12px;
+line-height: 11px;
+margin-left: 12px;
+padding-top: 15px;
+width: 306px;}
+.promotions{width:945px}
+.single_promotions{}
+
+.single_promotions{width:231px; height:127px; float:left;margin-right:5px; border-radius:15px; position:relative}
+.single_promotions h2{position:absolute; bottom:0px; color:#fff; font-size:18px; text-align:center; width:230px}
+.promo_one{background:url(image/footer1.png); no-repeat}
+.promo_two{background:url(image/footer2.png); no-repeat}
+.promo_three{background:url(image/footer3.png); no-repeat}
+.promo_four{background:url(image/footer4.png); no-repeat}
+
+.single_promotion_two{}
+.single_promotion_three{}
+.single_promotion_four{}
+.footer{background: url("image/footerbg.png") repeat-x scroll 0 0 transparent;
+color: #000;
+margin-left: -10px;
+padding: 20px;
+margin-right: -10px;
+margin-top: -13px;}
+
+.footer ul{margin:0;padding:0;list-style:none; overflow:hidden;text-align:center}
+.footer ul li{display:inline}
+.footer ul li a{ padding:0px 15px; color:#000}
+.footer ul li a hover{}
+.footer p{ text-align:center}
